@@ -1,0 +1,281 @@
+/* line 2, ../scss/main.scss */
+html body {
+  height: 100%;
+  /*--------------------
+  		Common
+  --------------------*/
+  /*--------------------
+  		Login,Signup
+  --------------------*/
+  /*--------------------
+  		Room
+  --------------------*/
+  /*--------------------
+  		Friends
+  --------------------*/
+  /*--------------------
+  		Setting
+  --------------------*/
+  /*
+  		div.imagebox {
+  			display: block;
+  			position: absolute;
+  			left: 50%;
+  			margin-left: -100px;
+  			top: 20%;
+  			width: 200px;
+  			height: 200px;
+  			overflow: hidden;
+  		}
+  */
+}
+/* line 7, ../scss/main.scss */
+html body #header {
+  background-color: #1abc9c;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+/* line 13, ../scss/main.scss */
+html body #header h1 {
+  position: relative;
+  font-family: futura;
+  font-size: 40px;
+  height: 60px;
+  color: white;
+  line-height: 60px;
+  padding-right: -30px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 23, ../scss/main.scss */
+html body #header h1 a {
+  font-size: 30px;
+  display: block;
+  position: absolute;
+  top: 15;
+  right: 15;
+  color: #16a085;
+}
+/* line 33, ../scss/main.scss */
+html body #wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0px auto;
+  padding: 60px 0 60px;
+}
+/* line 39, ../scss/main.scss */
+html body #footer {
+  height: 60px;
+  bottom: 0;
+  position: fixed;
+}
+/* line 44, ../scss/main.scss */
+html body #footer .container div.col-xs-3 {
+  border-right-color: rgba(0, 0, 0, 0.2);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-top-width: 1px;
+  border-top-style: solid;
+  height: 100%;
+  text-align: center;
+  padding-top: 10px;
+  color: #3498db;
+  background-color: #EEEEEE;
+}
+/* line 57, ../scss/main.scss */
+html body #footer .container div.col-xs-3.hover {
+  color: red;
+}
+/* line 60, ../scss/main.scss */
+html body #footer .container a:last-child div.col-xs-3 {
+  border-right-width: 0px;
+}
+/* line 68, ../scss/main.scss */
+html body p#description {
+  font-size: 20;
+  font-weight: bold;
+  text-align: center;
+  margin: 50 0 0 0;
+}
+/* line 74, ../scss/main.scss */
+html body #login, html body #signup {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+}
+/* line 83, ../scss/main.scss */
+html body #login_form p, html body #signup_form p {
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+}
+/* line 88, ../scss/main.scss */
+html body #login_form p, html body #login_form input, html body #signup_form p, html body #signup_form input {
+  text-align: center;
+}
+/* line 91, ../scss/main.scss */
+html body #login_form div.form, html body #signup_form div.form {
+  text-align: center;
+}
+/* line 94, ../scss/main.scss */
+html body #login_form a, html body #signup_form a {
+  display: block;
+  text-align: center;
+}
+/* line 98, ../scss/main.scss */
+html body #login_form div.button, html body #signup_form div.button {
+  text-align: center;
+  margin: 5px;
+}
+/* line 106, ../scss/main.scss */
+html body #chat_control_container {
+  position: fixed;
+  padding-bottom: 60;
+  bottom: 0;
+  width: 100%;
+}
+/* line 111, ../scss/main.scss */
+html body #chat_control_container #chat_control {
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 115, ../scss/main.scss */
+html body #chat_control_container input {
+  display: inline;
+  width: 75%;
+}
+/* line 119, ../scss/main.scss */
+html body #chat_control_container button {
+  width: 20%;
+}
+/* line 123, ../scss/main.scss */
+html body #chat_view_container {
+  margin: 5 0 40 0;
+}
+/* line 125, ../scss/main.scss */
+html body #chat_view_container #chat_view {
+  margin: 5 10;
+}
+/* line 127, ../scss/main.scss */
+html body #chat_view_container #chat_view ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* line 130, ../scss/main.scss */
+html body #chat_view_container #chat_view ul li {
+  margin: 5 0;
+}
+/* line 133, ../scss/main.scss */
+html body #chat_view_container #chat_view ul li span label.comment {
+  word-break: break-all;
+  font-weight: bold;
+  padding: 5 10;
+  background-color: #ECF0F1;
+  border-radius: 20;
+  min-width: 25;
+  max-width: 200;
+  min-height: 20;
+  margin: 0;
+}
+/* line 144, ../scss/main.scss */
+html body #chat_view_container #chat_view ul li span label.name {
+  margin: 0 0 0 5;
+  display: block;
+}
+/* line 148, ../scss/main.scss */
+html body #chat_view_container #chat_view ul li span label.time {
+  font-weight: normal;
+  font-size: 10;
+}
+/* line 157, ../scss/main.scss */
+html body #chat_view_container #chat_view ul li.mycomment {
+  text-align: right;
+}
+/* line 159, ../scss/main.scss */
+html body #chat_view_container #chat_view ul li.mycomment label.comment {
+  background-color: #9FCEEE;
+}
+/* line 169, ../scss/main.scss */
+html body #friendadd {
+  margin: 0 0 0 0;
+}
+/* line 171, ../scss/main.scss */
+html body #friendadd p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+/* line 177, ../scss/main.scss */
+html body #friendadd form {
+  margin-bottom: 5;
+  text-align: center;
+}
+/* line 180, ../scss/main.scss */
+html body #friendadd form input {
+  display: inline;
+  width: 50%;
+}
+/* line 186, ../scss/main.scss */
+html body #friendlisttable {
+  overflow: scroll;
+}
+/* line 188, ../scss/main.scss */
+html body #friendlisttable table {
+  width: 100%;
+}
+/* line 190, ../scss/main.scss */
+html body #friendlisttable table th, html body #friendlisttable table td {
+  text-align: center;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  height: 40;
+}
+/* line 197, ../scss/main.scss */
+html body #friendlisttable table .fa-star, html body #friendlisttable table .fa-star-o {
+  color: #F1C40F;
+}
+/* line 200, ../scss/main.scss */
+html body #friendlisttable table .fa-heart {
+  color: #e74c3c;
+}
+/* line 203, ../scss/main.scss */
+html body #friendlisttable table .btn {
+  width: 100px;
+}
+/* line 206, ../scss/main.scss */
+html body #friendlisttable table form {
+  margin: 0;
+}
+/* line 226, ../scss/main.scss */
+html body .accountImage {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 20%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+/* line 236, ../scss/main.scss */
+html body input#submitButton {
+  position: absolute;
+  width: 80;
+  top: 65%;
+  left: 50%;
+  margin-left: -40;
+}
+/* line 243, ../scss/main.scss */
+html body p#name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}

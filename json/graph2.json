@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {"x": 75, "y": 75, "username": "ryosuke", "avater": "image/ie.png", "countPerson": 5, "countFriend": 2},
+    {"x": 100, "y": 50, "username": "yuh", "avater": "image/firefox.png", "countPerson": 0, "countFriend": 0},
+    {"x": 50, "y": 75, "username": "kiichiro", "avater": "image/opera.png", "countPerson": 5, "countFriend": 2},
+    {"x": 50, "y": 50, "username": "coconut", "avater": "image/safari.png", "countPerson": 5, "countFriend": 4},
+    {"x": 100, "y": 100, "username": "makecolors", "avater": "image/chrome.png", "countPerson": 0, "countFriend": 0},
+    {"x": 100, "y": 100, "username": "makecolors", "avater": "image/chrome.png", "countPerson": 0, "countFriend": 0},
+    {"x": 100, "y": 100, "username": "makecolors", "avater": "image/chrome.png", "countPerson": 0, "countFriend": 0},
+    {"x": 100, "y": 100, "username": "makecolors", "avater": "image/chrome.png", "countPerson": 3, "countFriend": 2}
+  ],
+  "links": [
+    {"source":  0, "target":  1, "distance": 100},
+    {"source":  0, "target":  2, "distance": 200},
+    {"source":  0, "target":  3, "distance": 100},
+    {"source":  0, "target":  4, "distance": 50},
+    {"source":  0, "target":  5, "distance": 30},
+    {"source":  0, "target":  6, "distance": 90},
+    {"source":  0, "target":  7, "distance": 200}
+  ]
+}

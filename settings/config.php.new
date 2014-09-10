@@ -1,0 +1,17 @@
+<?php
+
+define('DSN', 'mysql:host=localhost;dbname=avater');
+define('DB_USER', 'makecolors');
+define('DB_PASSWORD', '1qaz"WSX');
+
+define('PASSWORD_KEY', '5tgb&YHN');
+define('SITE_URL', 'http://localhost/cyber/');
+
+define('FRIEND_NOTFRIEND', '0');
+define('FRIEND_REQUESTED', '1');
+define('FRIEND_FOLLOW', '2');
+define('FRIEND_REQUEST_RECEIVE', '3');
+
+
+error_reporting(E_ALL & ~E_NOTICE);
+//session_set_cookie_params(0, '/avater/');
